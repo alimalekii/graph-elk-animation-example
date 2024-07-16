@@ -1,0 +1,26 @@
+.graph-page {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.graph-container {
+  width: 100%;
+  height: 100%;
+}
+
+.graph {
+  position: absolute;
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.graph-layout-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
